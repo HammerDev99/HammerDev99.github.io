@@ -101,6 +101,10 @@
                     </li>
                     
                         
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
                     
                     
 		    
@@ -179,14 +183,14 @@
             col-xs-12
             post-container">
             
-                 
- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+                
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> ES | Español </option>
     <option value="1"> EN | English </option>
 </select>
 
                 
-                <div class="zh post-container">
+                <div class="es post-container">
                     
                     <h2 id="acerca-de-mí">Acerca de mí</h2>
 <p>Soy <strong>Daniel</strong> un apasionado desarrollador de soluciones tecnológicas que busca hacer una diferencia positiva en el mundo. Mi enfoque está en encontrar formas innovadoras de resolver las necesidades y problemas de las comunidades, especialmente en países que necesitan soluciones más accesibles y efectivas.</p>
@@ -278,7 +282,7 @@
       display: block;
     }
   </style>
-  <div class="en post-container active" style="display: block;">
+  <div class="post-container" style="display: block;">
     <form action="https://formspree.io/f/mwkggvvg" method="POST" class="floating-label-form-group">
       <h5>Your email:</h5>
       <input type="email" name="email">
@@ -290,8 +294,8 @@
 
 
   
-<p>AUTORIZACIÓN:
-Con el diligenciamiento de este formulario, consiento y autorizo de manera previa, expresa e inequívoca que mis datos personales sean tratados conforme a lo previsto en el Tratamiento Datos Personales (autorización y refrendación de uso de datos personales)</p>
+<p>AUTORIZACIÓN:</p>
+<p>Con el diligenciamiento de este formulario, consiento y autorizo de manera previa, expresa e inequívoca que mis datos personales sean tratados conforme a lo previsto en el Tratamiento Datos Personales (autorización y refrendación de uso de datos personales)</p>
 
                 </div>
             
@@ -301,7 +305,6 @@ Con el diligenciamiento de este formulario, consiento y autorizo de manera previ
 <p>I am <strong>Daniel</strong> a passionate developer of technology solutions that seeks to make a positive difference in the world. My focus is on finding innovative ways to solve the needs and problems of communities, especially in countries that need more accessible and effective solutions.</p>
 <p>My motto is “to get humans to stop thinking like machines and think more like humans”. I am inspired by the potential of technology to improve our lives and believe it is important to find a balance between automation and humanity in our processes.</p>
 <p>In my quest to positively impact society, I have developed several technology solutions that have benefited people of all ages and socioeconomic levels. From desktop applications to web tools.</p>
-<p>Translated with DeepL.com (free version)</p>
 <h2 id="open-source-projects">Open Source Projects</h2>
 <table>
 <thead>
@@ -388,7 +391,7 @@ Con el diligenciamiento de este formulario, consiento y autorizo de manera previ
       display: block;
     }
   </style>
-  <div class="en post-container active" style="display: block;">
+  <div class="post-container" style="display: block;">
     <form action="https://formspree.io/f/mwkggvvg" method="POST" class="floating-label-form-group">
       <h5>Your email:</h5>
       <input type="email" name="email">
@@ -744,7 +747,7 @@ Con el diligenciamiento de este formulario, consiento y autorizo de manera previ
 
 <script type="text/javascript">
     
-    var $zh = document.querySelector(".zh");
+    var $es = document.querySelector(".es");
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
 
@@ -765,13 +768,13 @@ Con el diligenciamiento de este formulario, consiento y autorizo de manera previ
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $en.classList.add("active");
-            $zh.style.display = "none";
-            $zh.classList.remove("active");
+            $es.style.display = "none";
+            $es.classList.remove("active");
             
         } else {
             $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $zh.classList.add("active");
+            $es.style.display = "block";
+            $es.classList.add("active");
             $en.style.display = "none";
             $en.classList.remove("active");
         }
@@ -782,7 +785,7 @@ Con el diligenciamiento de este formulario, consiento y autorizo de manera previ
     
     function onLanChange(index) {
         if (index == 0) {
-            lang = "zh"
+            lang = "es"
         } else {
             lang = "en"
         }
