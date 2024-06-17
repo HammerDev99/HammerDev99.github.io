@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hammerdev99.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/tags/docassemble/</loc>
+    <loc>http://localhost:1313/tags/docassemble/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/tags/legaltech/</loc>
+    <loc>http://localhost:1313/tags/legaltech/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/categories/tech/</loc>
+    <loc>http://localhost:1313/categories/tech/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/2023/07/11/docassemble-review/</loc>
+    <loc>http://localhost:1313/2023/07/11/docassemble-review/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/2023/05/10/hello-world/</loc>
+    <loc>http://localhost:1313/2023/05/10/hello-world/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/tags/software-libre/</loc>
+    <loc>http://localhost:1313/tags/software-libre/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hammerdev99.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://hammerdev99.github.io/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
   </url><url>
-    <loc>https://hammerdev99.github.io/search/placeholder/</loc>
+    <loc>http://localhost:1313/search/placeholder/</loc>
   </url><url>
-    <loc>https://hammerdev99.github.io/archive/</loc>
+    <loc>http://localhost:1313/archive/</loc>
   </url><url>
-    <loc>https://hammerdev99.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
